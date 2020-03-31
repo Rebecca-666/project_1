@@ -46,7 +46,7 @@ text-decoration: none;
   margin:0 0;
   box-sizing: border-box;
 }
-#navbar ul li a:hover,#navbar ul li .nav1{
+#navbar ul li a:hover,.current{
 color:#f7c08a ;
 background-color: #444;
 cursor: pointer;
@@ -162,4 +162,83 @@ footer{
   padding:20px;
   color: #f4f4f4;
   margin:0;
+}
+/* about page */
+.aboutpage{
+  background-color: #f4f4f4;
+  height: 350px;
+  margin:0;
+  padding:0px;
+}
+.about-h{
+  padding:30px 60px 0 60px;
+
+  font-size :40px;
+  text-align: left;
+}
+.about-p1{
+  text-align: left;
+  padding: 30px 60px 10px 60px ;
+}
+.about-p2{
+  text-align: left;
+  padding: 10px 60px 20px 60px  ;
+}
+.hp{
+  float:left;
+  width:50%;
+}
+
+.about-img{
+  padding:20px 100px;
+  width: 50%;
+ float:right;
+ height: 350px;
+ border-radius: 50%;
+}
+.testi{
+  background: url('../test-bg.jpg') no-repeat
+  center center/cover;
+  height:620px;
+
+}
+.testi-h{
+  color:#fff;
+  padding:30px;
+  font-size:40px;
+  text-align: center;
+  padding-top: 100px;
+}
+.testi-1{
+  background-color: #f7c08a;
+  color:#333;
+  padding:20px;
+  height:140px;
+  display:inline-block;
+  margin:20px 100px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+.testi-p1{
+ padding:10px; 
+}
+.testi-img1,.testi-img2{
+  float:left;
+  width:120px;
+  border-radius: 50%;
+  padding: 0px 10px;
+}
+.testi-2{
+  background-color: #f7c08a;
+  color:#333;
+  padding:20px;
+  height:140px;
+  display:inline-block;
+  margin:10px 100px;
+  border-radius: 5px;
+  opacity: 0.9;
+
+}
+.testi-p2{
+  padding:10px; 
 }
