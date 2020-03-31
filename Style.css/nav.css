@@ -87,6 +87,10 @@ span{
   padding:13px 20px;
   color:#fff;
 }
+#btn:hover{
+  color: #333;
+  background-color:#f7c08a;
+}
 #infor-img{
   height: 400px;
   width: 50%;
@@ -94,7 +98,7 @@ span{
   center center/cover ;
   float:left;
 }
-section{
+.information{
   height:400px;
 }
 #infor-history{
@@ -127,4 +131,35 @@ section{
   cursor: pointer;
   color:#f7c08a;
 }
+/* feature */
+#box-1, #box-2, #box-3 {
+  float:left;
+  width: 33.3%;
+  text-align:center;
+  padding: 50px ;
+  margin:0;
+}
+h3{
+  padding-bottom:30px;
+}
+#box-2{
+  background-color: #f7c08a;
+}
+#box-1, #box-3{
+  background-color: #f4f4f4;
 
+}
+i{
+  margin:10px;
+}
+/* footer */
+.clr{
+  clear: both;
+}
+footer{
+  text-align: center;
+  background-color: #444;
+  padding:20px;
+  color: #f4f4f4;
+  margin:0;
+}
