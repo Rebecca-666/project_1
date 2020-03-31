@@ -139,6 +139,16 @@ span{
   padding: 50px ;
   margin:0;
 }
+#box-4,#box-5, #box-6{
+  float:left;
+  width: 33.3%;
+  text-align:center;
+  padding: 50px ;
+  margin:0;
+  background-color:#333;
+  color:#fff;
+  }
+
 h3{
   padding-bottom:30px;
 }
@@ -222,7 +232,7 @@ footer{
 .testi-p1{
  padding:10px; 
 }
-.testi-img1,.testi-img2{
+.testi-img1,.testi-img2{ 
   float:left;
   width:120px;
   border-radius: 50%;
@@ -241,4 +251,56 @@ footer{
 }
 .testi-p2{
   padding:10px; 
+}
+/* Contact-page */
+.contact-h{
+  font-size:30px;
+  padding:20px 40px;
+}
+.contact-p{
+  padding:10px 20px 20px 40px;
+}
+ 
+.contact-form{
+  width:100%;
+  padding:20px 40px;  
+}
+label{
+  display:block;
+  padding-bottom: 5px;
+}
+textarea{
+  padding:0px;
+  height:200px;
+  width:100%;
+  
+}
+ input{
+ width:100%;
+ border: #ddd 1px solid;
+ padding:10px;
+  }
+.contact-form textarea:focus {
+  outline:none;
+  border-color: #f7c08a;
+}
+.contact-form input:focus {
+  outline:none;
+  border-color: #f7c08a;
+}
+.contact-btn{
+  padding:10px;
+  margin:20px 40px;
+  display:inline-block;
+  width:100px;
+  text-align: center;
+  background-color: #000;
+  color: #f4f4f4;
+}
+.contact-btn:hover{
+  cursor:pointer;
+  background-color:#f7c08a;
+ color:#333;
+
+
 }
